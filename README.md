@@ -1,1 +1,1 @@
-# School-2021
+<h1 align="center">School</h1>
