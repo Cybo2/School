@@ -5,8 +5,8 @@ Write your first function
 - Make sure to return the sum of x and y
 */
 function add(x, y) {
-  //your code goes down here
-  return x+y
+    //your code goes down here
+    return x+y
 }
 
 //open the browser console to check results
@@ -14,5 +14,5 @@ console.log(`results: ${add(3, 2)}`);
 
 //don't change this line
 if (typeof module !== "undefined") {
-  module.exports = add;
+    module.exports = add;
 }
