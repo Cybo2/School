@@ -1,6 +1,6 @@
 <h1 align="center">School</h1>
 
-<ul align="center">
+<ul>
     <li>
         <span>2021-10-11</span>
         <ul>
