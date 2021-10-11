@@ -4,7 +4,7 @@
     <li>
         <span>2021-10-11</span>
         <ul>
-            <li><a href="/2021-10-11/anagram.js.js">anagram.js.js</a></li>
+            <li><a href="/2021-10-11/palindrome.js">palindrome.js</a></li>
             <li><a href="/2021-10-11/basic-types.js">basic-types.js</a></li>
             <li><a href="/2021-10-11/better-creating-sentences.js">better-creating-sentences.js</a></li>
             <li><a href="/2021-10-11/creating-sentences.js">creating-sentences.js</a></li>
