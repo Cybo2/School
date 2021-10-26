@@ -4,7 +4,7 @@
     <li>
         <span>2021-10-25</span>
         <ul>
-            <li><a href="/2021-10-11/story-time.js">story-time.js</a></li>
+            <li><a href="/2021-10-25/story-time.js">story-time.js</a></li>
         </ul>
     </li>
     <li>
