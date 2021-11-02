@@ -23,13 +23,13 @@ const seed = Math.floor(Math.random()*1000);
 console.log(`Hello, welcome to the ${world}!`);
 console.log("Here we like to watch the sunset everynight.");
 if (is_in_rush) {
+    console.log("I see your in a rush so we can watch the sunset later.");
+} else {
     if (date.getHours() >= 17 && date.getHours() >= 19) {
         console.log("It almost night, would you like to watch the sunset with us?");
     } else {
         console.log("Sadly its not night but you may be able to watch the sunset with us later...");
     }
-} else {
-    console.log("I see your in a rush so we can watch the sunset later.");
 }
 setTimeout(() => {
     console.log(`\nUH-OH! It looks like our enemy (${enemy_team}) is trying to enter our base!`);
