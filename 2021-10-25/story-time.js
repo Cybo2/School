@@ -1,13 +1,15 @@
 // TODO: Create 4-String variables to introduce develop your story.
 // YOUR CODE GOES HERE
+const date = new Date();
 const main_character_name = "Billy";
-const world = "Ocean";
 const friendly_team = "Moon";
 const enemy_team = "Sun";
 
 // TODO: Create 3-String variables to set the time period of your story or discuss other number elements.
 // YOUR CODE GOES HERE
-const date = new Date();
+const location = "The Box";
+const moved_items = ["Sword"];
+const world = "Ocean";
 
 // TODO: Create 1-Array variable to show a collection of items your character might have.
 // YOUR CODE GOES HERE
@@ -26,7 +28,7 @@ if (is_in_rush) {
     console.log("I see your in a rush so we can watch the sunset later.");
 } else {
     if (date.getHours() >= 17 && date.getHours() >= 19) {
-        console.log("It almost night, would you like to watch the sunset with us?");
+        console.log(`It almost night here in ${location}, would you like to watch the sunset with us?`);
     } else {
         console.log("Sadly its not night but you may be able to watch the sunset with us later...");
     }
@@ -34,6 +36,7 @@ if (is_in_rush) {
 setTimeout(() => {
     console.log(`\nUH-OH! It looks like our enemy (${enemy_team}) is trying to enter our base!`);
     console.log(`Here are some of your items you can use to try to stop them! (${items.join(", ")})`);
+    console.log(`Only issue is, these items you dont own... (${moved_items.join(", ")})`);
 }, seed*3);
 setTimeout(() => {
     console.log("\nIt seems like they have left.");
