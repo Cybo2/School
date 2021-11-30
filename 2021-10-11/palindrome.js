@@ -1,10 +1,9 @@
 function isPalindrome(string) {
     if (string.toLowerCase() == string.toLowerCase().split("").reverse().join("")) {
         return true;
-    } else {
-        return false;
-    }
-}
+    };
+    return false;
+};
 
 console.log(isPalindrome("mom"));
 console.log(isPalindrome("dad"));
